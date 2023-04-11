@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicite um Orçamento</title>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" width="60" height = "40">
+    <img src="img/4918431.jpg" height="400" width="1400" alt="">
+</head>
+<body>  
+    <H1>Solicite seu Orçamento</H1>
+    <H3>Menu</H3>
+    <nav>
+        <a href="Index.html">Início</a>
+        <a href="Catalogo.html">Catalogo</a>
+        <a href="Orcamento.html">Solicite seu Orçamento</a>
+    </nav><br>
+    <form action="envio_dados.php" method="get">
+        Nome: <input type="text" name="Nome" placeholder="Digite seu nome Aqui">
+    </form>
+    <br><br>
+    <form>
+        Telefone(DDD): <input type="tel" name="Telefone" placeholder="Digite seu Telefone com DDD">
+    </form>
+    <br><br>
+    <form>
+        E-mail: <input type="email" name="E-mail" placeholder="Digite seu e-mail">
+    </form>
+    <br><br>
+    <form>
+        Item:<br>
+        <input type="checkbox" name="Caneca">#1 - Caneca<br>
+        <input type="checkbox" name="Taça">#2 - Taça<br>
+        <input type="checkbox" name="Squeeze">#3 - Squeeze<br>
+        <input type="checkbox" name="Caneca de Cerveja">#4 - Caneca de Cerveja<br>
+        <input type="checkbox" name="Outro"><br>
+    </form><br>
+    <div class="field">
+        <label for="Mensagem">Sua Mensagem:</label><br><br>
+        <textarea name="Mensagem" id="Mensagem" placeholder= "Mensagem*" required cols="30" rows="10"></textarea>
+    </div>
+    <input type="submit" name="acao" value="Enviar"><br><br>
+    <footer>
+        <img src="img/fundo-rosa-com-palmeira.jpg" height="200" width="1400" alt="">
+        <h6>Criado por: Gisele Lima.</h6>
+        <H6>"Tenha Orgulho de suas conquistas!" por Isabel Brabessi.</H6>
+     </footer>
+</body>
+</html>
