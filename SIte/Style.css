@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Sigmar&display=swap');
+
+/*Estilo de Cabeçalho */
+header{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Dancing Script' cursive;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+}
+
+
+nav{
+    overflow: hidden;
+    background-color:mistyrose;
+}
+
+/* Links */
+nav a {
+    float: left;
+    display:block;
+    color:gray;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/*mudar cor do link*/
+nav a:hover {
+    background-color:deeppink;
+    color:black;
+}
+
+.container{
+    width: 1000px;
+    left: 50%;
+    height: 350px;
+    background-color: transparent;
+}
+
+.Q1{
+    background-color: rosybrown;
+    height: 400px;
+    left: 20%;
+    text-align: right;
+    position: relative;
+    
+}
+.h1{
+    text-align: left;
+    color: #fff;
+    position: relative;
+    padding: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.Q2{
+    box-sizing: border-box;
+    background: transparent;
+    font-family: cursive;
+    text-align: left;
+    position: absolute;
+    margin-top:5%;
+    margin-left: 5px;
+}
+
+iframe{
+    margin:10px;
+    width:300px ;
+    height: 300px;
+    position: relative;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.Q3{
+    background-image: url(img/fundo-rosa-com-palmeira.jpg);
+    background: transparent;
+    margin: 10px;
+    width: auto;
+    height: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color:black;
+    
+}
+.h2{
+    font-family: 'Lato', sans-serif;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+footer{
+    box-sizing: border-box;
+    width: 100vw;
+    text-align: left;
+    padding: 10px;
+    background: linear-gradient(72deg, #DB7093 35%, #FFC0CB, #FFE4E1 99%);
+    font-size: 15px;
+}
+
+.tex-banner{
+    width: 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+    color:#fff;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.Q4{
+    width: 400px;
+    height: 350px;
+    color:#fff;
+    padding-top: 50px;
+    padding-left: 53%;
+    padding-right: 15px;
+    background: transparent;
+    position: absolute;
+}
+
+button{
+    background:#BEBEBE;
+    border-radius: 6px; 
+    padding: 5px; 
+    cursor: pointer; 
+    color: #fff; 
+    border: none; 
+    font-size: 16px;
+}
